@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>eCommerce_Shop.Web.ViewModels</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eCommerce-Shop.Common\eCommerce-Shop.Common.csproj" />
+    <ProjectReference Include="..\eCommerce-Shop.Data.Models\eCommerce-Shop.Data.Models.csproj" />
+  </ItemGroup>
+
+</Project>
